@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>How to Get Around</title>
+<style>
+.divider {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  background-color: darkblue;
+  margin: 5px;
+}
+body{background-repeat: no-repeat;
+     background-size: cover;}
+</style>
+<h1 style="text-align:center;font-family:cursive;color:;">HOW TO GET AROUND</h1>
+<center><img align="middle" width="800px" height="300px" src="C:\Users\Varnika\Pictures\Saved Pictures\norway night.jpg"</center>
+<br>
+</head>
+<body background="C:\Users\Varnika\Pictures\Saved Pictures\tacfjs.jpg">
+<h2 style="text-align:center;color:#;font-family:cursive;"><u>Public Transportation</u></h2>
+<h3 style="color:#;font-family:cursive;"><p>Public transportation in Norway is modern, clean, and reliable. Buses and trams are common in each city; only Oslo has a metro system. Single tickets cost around 39 NOK and are usually valid for one hour. You can get a 24-hour pass in Oslo for 117 NOK and a 7-day pass for 323 NOK.</p>
+<p>You are able to get on most buses and trams without showing a ticket, however, patrols are common and the fines are heavy if you get caught without a ticket. Don’t risk it — always buy a ticket!</p></h3>
+<h2 style="text-align:center;color:#;font-family:cursive;"><u>Bus</u></h2>
+<h3 style="color:#;font-family:cursive;"><p>Buses are a cheap way to get around the country, though they are slow and rather limited since the distances between cities can be large. For example, the 8-hour journey from Oslo to Stavanger costs around 115-450 NOK each way while the bus from Oslo to Trondheim takes around 9 hours and costs around 780 NOK. Prices can double when not booked in advance.</p>
+<p>Vy Buss is the most common bus company, though you can also find deals with Nor-Way Bussekspress and Flixbus.</p></h3>
+<h2 style="text-align:center;color:#;font-family:cursive;"><u>Train</u></h2>
+<h3 style="color:#;font-family:cursive;"><p>Trains are the best way to get around Norway (unless you’re on a road trip). They are often faster than buses without costing much more — and they are much more comfortable. The 7-hour trip from Oslo to Trondheim costs as little as 360 NOK while the 6.5-hour trip to Bergen from Oslo can cost as little as 290 NOK. The trip from Oslo to Gothenburg, Sweden takes under 4 hours and can be done for less than 250 NOK.</p>
+<p>Reservations should be made in advance as you can often find great deals that way. Last-minute tickets can be double what I quoted above!</p></h3>
+<h2 style="text-align:center;color:#;font-family:cursive;"><u>Flying</u></h2>
+<h3 style="color:#;font-family:cursive;"><p>Flying around Norway isn’t super cheap, but it’s also not that expensive. From Oslo, you can reach most destinations in the country (as well as destinations in Sweden) for as little as 500 NOK (one way) if you book early and are flexible. Norwegian Air is the main domestic carrier, though SAS also flies several major routes.</p></h3>
+<h2 style="text-align:center;color:#;font-family:cursive;"><u>Car Rental</u></h2>
+<h3 style="color:#;font-family:cursive;"><p>Renting a car is the best way to explore the country, however, it’s not cheap if you’re a solo traveler. Expect to pay 470-900 NOK per day for a vehicle if you rent for at least a week. Most rental vehicles are manuals as well, so keep that in mind when renting (you usually have to pay more for an automatic). If you don’t have someone to travel with to keep costs low, check at the local hostels or on Couchsurfing to find people to travel with so you can split costs. For the best car rental prices, use Discover Cars.</p></h3>
+<h2 style="text-align:center;color:#;font-family:cursive;"><u>Hitchhiking</u></h2>
+<h3 style="color:#;font-family:cursive;"><p>Hitchhiking here is possible in Norway though it’s not very common. Make sure you’re near a main road and be prepared for the weather to change rapidly. Also, try to look presentable and have a sign. Wait times can be long so make sure you have flexible plans. HitchWiki is the best website for additional hitchhiking info.</p></h3>
+<br>
+<hr>
+<br>
+<div class="divider">LIMITED OFFER:</div>
+<div class="divider">Special Discount On Flight Tickets</div>
+<div class="divider">Upto 27 December,2023</div>
+<p id="demo"></p>
+
+<script>{
+  document.getElementById("demo").style.fontSize = "x-large";
+}
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 27, 2023 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<a href="file:///C:/Users/Varnika/Documents/FEE/FEE%20Blog%20Page/Places%20to%20Stay.html" class="previous">&laquo; Previous</a>
+<a href="file:///C:/Users/Varnika/Documents/FEE/FEE%20Blog%20Page/When%20to%20Go.html" class="next">Next &raquo;</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
